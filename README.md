@@ -32,77 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The dedicated Active Directory (AD) protection and Identity Threat Detection and Response (ITDR) market is estimated at **$1.1B to $1.3B** (scaling rapidly toward **$3.8B+** by 2030, embedded within a broader **$5.6B–$16.6B** identity security sector). The market exhibits **moderate concentration**: broad cyber-resilience platforms (Veeam, Rubrik, Cohesity) and hyperscalers anchor foundational enterprise backup, while specialized pure-play vendors (Semperis, Netwrix, Cayosoft) dominate deep forest recovery, attack-path auditing, and directory posture management.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **Semperis Directory Services Protector (DSP)**
-
-  **Active Directory and Entra ID protection** with continuous monitoring and forest recovery. **Pricing**: **Custom pricing only**—no public rates; private offers via Microsoft Marketplace . **Free tier**: None. **Best for**: enterprises needing proactive AD hardening, attack path remediation, and automated malware-free forest recovery—**trade-off**: sales-led evaluation; enterprise pricing.
-
-
-
-- **Rubrik Identity Resilience**
-
-  **Unified identity protection** across Active Directory, Entra ID, and Okta. **Pricing**: Quote-only; enterprise contracts. **Free tier**: None. **Best for**: regulated enterprises needing tamper-resistant monitoring, surgical rollback, and five-step forest recovery—**trade-off**: enterprise commitment; FedRAMP features limited to recovery only .
-
-
-
-- **Quest Recovery Manager for Active Directory**
-
-  **AD forest recovery and backup** with granular restore. **Pricing**: **Disaster Recovery term license listed at $48.86** (1 user, 1 year) on CDW-G ; maintenance renewal **$73.80** . **Free tier**: None. **Best for**: organizations wanting proven AD recovery without full cyber resilience platform—**trade-off**: pricing scales with users; recovery-focused.
-
-
-
-- **ManageEngine RecoveryManager Plus**
-
-  **AD, Entra ID, and M365 backup and restore**. **Pricing**: **AD Standard Edition from US$475/year** (includes AMS) ; M365 from **US$195/year**; tiered by user objects . **Free tier**: None. **Best for**: SMBs and mid-market organizations wanting affordable AD backup with Entra ID support—**trade-off**: per-user licensing; advanced features tiered.
-
-
-
-- **Netwrix Auditor for AD**
-
-  **AD and Entra ID auditing** with change tracking. **Pricing**: **Essentials starts at $20 per enabled AD user + cloud-only Entra ID user** (self-service) . **Free tier**: None. **Best for**: compliance-focused organizations needing audit trails and unauthorized change detection—**trade-off**: auditing, not backup/recovery.
-
-
-
-- **Veeam Explorer for Microsoft Active Directory**
-
-  **AD item recovery** included with Veeam Backup & Replication. **Pricing**: **Included with all Veeam editions** (Free, Standard, Enterprise, Enterprise Plus); full restore capabilities require Enterprise or Enterprise Plus . **Free tier**: Yes, with Veeam Free Edition (limited restore). **Best for**: Veeam customers wanting AD recovery without additional licensing—**trade-off**: requires Veeam infrastructure; full features gated by edition.
-
-
-
-- **Commvault AD Protection**
-
-  **Directory Services protection** within Commvault Cloud. **Pricing**: Quote-only; bundled with Commvault platform. **Free tier**: None. **Best for**: Commvault customers wanting unified AD and Entra ID backup—**trade-off**: platform commitment required.
-
-
-
-- **Cohesity Identity Resilience (powered by Semperis)**
-
-  **AD and Entra ID protection** integrated with Cohesity Data Cloud. **Pricing**: Quote-only. **Free tier**: 30-day free trial . **Best for**: Cohesity customers wanting AD hardening and recovery in one platform—**trade-off**: requires Cohesity + Semperis partnership stack.
-
-
-
-- **Cayosoft Administrator**
-
-  **AD management and recovery** with web portal. **Pricing**: **Subscription licensing** (12/36/72 months); **no per-admin fees**—license once, all admins use it . **Free tier**: Yes, **Free Edition** with web portal, LAPS access, BitLocker recovery, self-service password change, and Graph PowerShell module . **Best for**: organizations wanting AD management without per-admin licensing—**trade-off**: free edition limited; recovery features in paid tiers.
-
-
-
-- **Druva SaaS Universal License**
-
-  **Unified SaaS and identity backup** including AD and Entra ID. **Pricing**: **Per-user flat rate** across all SaaS apps; **300 GB pooled storage per user** . **Free tier**: None. **Best for**: organizations consolidating SaaS backup under one license—**trade-off**: per-user pricing; requires Druva platform.
+| Company / Product | Company Scale (Valuation / Revenue) | Pricing | Free Tier / Trial Limit | Key Focus & Trade-off |
+| :--- | :--- | :--- | :--- | :--- |
+| **Veeam Explorer for Active Directory** | **$15B valuation** (~$1.7B ARR; TPG / Insight Partners) | Included with Veeam Universal License (VUL); starts at **$155/instance/year** (sold in 10-packs for $1,550/yr) | **Free-forever plan**: Veeam Community Edition provides free full backup/restore for up to **10 instances (workloads)** indefinitely. | **Best for**: Existing Veeam customers seeking native AD object restore. **Trade-off**: Requires Veeam infrastructure; advanced DR orchestration requires Premium tier. |
+| **Rubrik Identity Resilience** | **~$13.9B market cap** (~$888M FY25 revenue; NYSE: RBRK) | Foundation Edition for SaaS / M365 starts at **$3.80/user/month** (3-year contract required; enterprise minimums apply) | **30-day free trial**: Available upon request for targeted workloads (e.g., Salesforce sandbox / M365 backup) and customized enterprise PoC. | **Best for**: Large enterprises needing tamper-resistant monitoring and 5-step forest recovery. **Trade-off**: High multi-year enterprise minimums. |
+| **Cohesity Identity Resilience** | **~$8B valuation** (~$1.7B pro forma revenue post-Veritas merger) | DataProtect DPaaS starts at **$29,100/year** for 10 BETB (~$2,900/TB/yr); software subscription from **$150–$400/TB/year** | **30-day free trial**: Unrestricted trial available for Cohesity Data Cloud / DataProtect as a Service upon registration. | **Best for**: Cohesity/Veritas customers wanting integrated Semperis-powered AD resilience. **Trade-off**: High minimum capacity commitments (typically 10 TB BETB or 3-node cluster). |
+| **Commvault AD Protection** | **~$6.6B market cap** (~$995.6M FY25 revenue; NASDAQ: CVLT) | SaaS Microsoft 365 / Identity backup starts at **$1.70/user/month** (Standard) to **$4.50/user/month** (Enterprise); infrastructure backup from **$58.50/TB/month** | **30-day free trial**: Commvault Cloud offers a fully functional 30-day trial covering hybrid cloud workloads and SaaS identity without credit card. | **Best for**: Enterprises consolidating directory, cloud, and SaaS backup on one platform. **Trade-off**: Broad platform footprint required for full directory recovery suite. |
+| **Quest Recovery Manager for Active Directory (RMAD)** | **~$5.4B buyout valuation** (Acquired by Clearlake Capital; >$1B revenue) | Disaster Recovery term license lists at **$48.86/user/year** (CDW-G); maintenance renewal at **$73.80/user/year** | **30-day free trial**: Full-featured 30-day trial for Recovery Manager for Active Directory Disaster Recovery Edition. | **Best for**: Organizations wanting battle-tested AD forest backup and surgical attribute restoration. **Trade-off**: Scales per enabled user account; primarily recovery-focused rather than real-time posture defense. |
+| **Druva SaaS Universal License** | **$2B peak valuation** (~$200M+ ARR; backed by Neuberger Berman / Riverwood) | User & SaaS workload backup starts at **$6.80 to $8.00/user/month** (Business to Enterprise); unmanaged infrastructure at custom TB-month rates | **30-day free trial**: 30-day full-access trial for Druva Data Resiliency Cloud with 300 GB pooled storage per user, no credit card required. | **Best for**: Cloud-first organizations consolidating endpoint, M365, and directory protection. **Trade-off**: Per-user pricing scales quickly across large workforces. |
+| **Semperis Directory Services Protector (DSP)** | **~$1B valuation** (Surpassed $100M ARR; Series C / KKR) | Custom enterprise subscription based on protected active directory accounts (private offers via Azure Marketplace / Carahsoft NASA SEWP V) | **Free community tool**: Semperis **Purple Knight** is free forever for unlimited AD/Entra/Okta vulnerability scans (paid DSP offers 30-day enterprise proof-of-concept upon request). | **Best for**: Enterprises needing automated ransomware-free AD forest recovery and continuous posture remediation. **Trade-off**: Enterprise sales motion only; private offers tailored to user count. |
+| **ManageEngine RecoveryManager Plus** | **~$580M–$600M annual revenue** (IT division of bootstrapped Zoho Corp, ~$1.5B revenue) | AD Standard Edition starts at **$475/year** (includes AMS for 250 objects); M365 backup starts at **$195/year** | **Free-forever plan**: 30-day fully functional trial, which automatically converts to **Free Edition** indefinitely (limited to 1 domain, scheduled backups only, no granular rollback). | **Best for**: SMBs and mid-market teams seeking low-cost, transparent directory and M365 protection. **Trade-off**: Granular object rollback and multi-domain environments require paid tiers. |
+| **Netwrix Auditor for AD** | **~$200M+ est. revenue** (ARR grew 5x under TA Associates & Centerbridge Partners) | Essentials tier starts at **$20/enabled AD user + cloud-only Entra ID user/year** (self-service subscription) | **Free-forever plan**: 20-day unrestricted trial, which automatically reverts to **Free Community Edition** indefinitely (daily change summary reports via email). | **Best for**: Audit compliance, change tracking, and spotting unauthorized AD modifications. **Trade-off**: Auditing and posture detection platform, not a disaster recovery or backup restoration tool. |
+| **Cayosoft Administrator & Guardian** | **Bootstrapped / $22.5M growth round** (Centana Growth Partners; 76% ARR growth) | Subscription licensing based on total managed directory objects (flat license covering unlimited administrators and servers; custom quote via Carahsoft GSA MAS #47QSWA18D008F) | **Free-forever plan**: Cayosoft Free Edition includes web portal, LAPS access, BitLocker recovery, and Graph PowerShell module; commercial editions offer **25-day free trial**. | **Best for**: Hybrid organizations wanting AD management and forest recovery without per-admin fees. **Trade-off**: Deep forest disaster recovery features reserved for Guardian paid tier. |
 
 
 
