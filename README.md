@@ -1,50 +1,47 @@
-# Awesome-Active-Directory-Entra-Id-Protection
+# 🛡️ Awesome Active Directory & Entra ID Protection ☁️
 
-# Awesome-Active-Directory-Entra-Id-Protection
+<div align="center">
 
-**Top Active Directory Entra Id Protection (Opensource) 🌟 Star if you like it! 🌟**
+<img src="./assets/banner.svg" alt="Awesome Active Directory &amp; Entra ID Protection Banner" width="100%" />
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Active-Directory-Entra-Id-Protection/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Active-Directory-Entra-Id-Protection?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Active-Directory-Entra-Id-Protection/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Active-Directory-Entra-Id-Protection?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Active-Directory-Entra-Id-Protection/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+**Curated collection of SaaS products and production-tested open-source security tools for Active Directory (AD) Forest Recovery, Microsoft Entra ID (Azure AD) Backup, Identity Threat Detection & Response (ITDR), Attack Path Analysis, and Directory Hardening.**
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+🌟 *Star this repository to bookmark the latest cyber resilience benchmarks and tooling updates!* 🌟
 
-*Focused on AD Forest Recovery, Entra ID Backup, Attack Path Analysis & Self-Hosted Directory Tooling*
+</div>
 
-**Last updated: November 2026**
+---
 
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS / Commercial Hosted Platforms](#-saas--commercial-hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Active Directory & Entra ID Protection**. These tools enable organizations to back up, recover, audit, and harden their identity infrastructure—protecting against ransomware, accidental deletion, and privilege escalation—from fully managed enterprise platforms with immutable cyber vaults to open-source PowerShell modules and reconnaissance frameworks that give teams control over their directory security posture.
+---
 
-
-
-**Examples** include Semperis Directory Services Protector, Rubrik Identity Resilience, Quest Recovery Manager, ManageEngine Recovery Manager Plus, Netwrix Auditor, Veeam Explorer for AD, Commvault AD Protection, Cohesity Identity Resilience, Cayosoft Administrator, and Druva (the category leaders in commercial space).
-
-
-
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted AD/Entra tooling, backup, and attack path analysis. **Critical note**: True open-source AD protection is anchored by **DSInternals**—the PowerShell module that exposes AD internals for offline recovery, password auditing, and DCSync detection . **BloodHound** dominates attack path analysis , and **Microsoft 365 DSC** provides declarative Entra ID backup . No open-source project matches Semperis' automated forest recovery or Rubrik's five-step wizard, but for auditing, recovery scripting, and attack path discovery, the options are production-proven.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The dedicated Active Directory (AD) protection and Identity Threat Detection and Response (ITDR) market is estimated at **$1.1B to $1.3B** (scaling rapidly toward **$3.8B+** by 2030, embedded within a broader **$5.6B–$16.6B** identity security sector). The market exhibits **moderate concentration**: broad cyber-resilience platforms (Veeam, Rubrik, Cohesity) and hyperscalers anchor foundational enterprise backup, while specialized pure-play vendors (Semperis, Netwrix, Cayosoft) dominate deep forest recovery, attack-path auditing, and directory posture management.
 
-## SaaS/Hosted Platforms
+---
 
-| Company / Product | Company Scale (Valuation / Revenue) | Pricing | Free Tier / Trial Limit | Key Focus & Trade-off |
+## 🏢 SaaS / Commercial Hosted Platforms
+
+| 🏢 Company / Product | 📈 Scale (Valuation / Revenue) | 💳 Pricing (Specific Starting Tiers) | 🎁 Free Tier / Trial Limit | 🎯 Key Focus & Trade-off |
 | :--- | :--- | :--- | :--- | :--- |
 | **Veeam Explorer for Active Directory** | **$15B valuation** (~$1.7B ARR; TPG / Insight Partners) | Included with Veeam Universal License (VUL); starts at **$155/instance/year** (sold in 10-packs for $1,550/yr) | **Free-forever plan**: Veeam Community Edition provides free full backup/restore for up to **10 instances (workloads)** indefinitely. | **Best for**: Existing Veeam customers seeking native AD object restore. **Trade-off**: Requires Veeam infrastructure; advanced DR orchestration requires Premium tier. |
 | **Rubrik Identity Resilience** | **~$13.9B market cap** (~$888M FY25 revenue; NYSE: RBRK) | Foundation Edition for SaaS / M365 starts at **$3.80/user/month** (3-year contract required; enterprise minimums apply) | **30-day free trial**: Available upon request for targeted workloads (e.g., Salesforce sandbox / M365 backup) and customized enterprise PoC. | **Best for**: Large enterprises needing tamper-resistant monitoring and 5-step forest recovery. **Trade-off**: High multi-year enterprise minimums. |
@@ -57,106 +54,130 @@ The dedicated Active Directory (AD) protection and Identity Threat Detection and
 | **Netwrix Auditor for AD** | **~$200M+ est. revenue** (ARR grew 5x under TA Associates & Centerbridge Partners) | Essentials tier starts at **$20/enabled AD user + cloud-only Entra ID user/year** (self-service subscription) | **Free-forever plan**: 20-day unrestricted trial, which automatically reverts to **Free Community Edition** indefinitely (daily change summary reports via email). | **Best for**: Audit compliance, change tracking, and spotting unauthorized AD modifications. **Trade-off**: Auditing and posture detection platform, not a disaster recovery or backup restoration tool. |
 | **Cayosoft Administrator & Guardian** | **Bootstrapped / $22.5M growth round** (Centana Growth Partners; 76% ARR growth) | Subscription licensing based on total managed directory objects (flat license covering unlimited administrators and servers; custom quote via Carahsoft GSA MAS #47QSWA18D008F) | **Free-forever plan**: Cayosoft Free Edition includes web portal, LAPS access, BitLocker recovery, and Graph PowerShell module; commercial editions offer **25-day free trial**. | **Best for**: Hybrid organizations wanting AD management and forest recovery without per-admin fees. **Trade-off**: Deep forest disaster recovery features reserved for Guardian paid tier. |
 
+---
 
+## 💻 Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
+Sorted in descending order by GitHub stargazers count. Each repository includes direct links to documentation, source code, and its stargazers community.
 
+### 1. 🔍 [BloodHound](https://github.com/SpecterOps/BloodHound) [![GitHub stars](https://img.shields.io/github/stars/SpecterOps/BloodHound?style=social&color=white)](https://github.com/SpecterOps/BloodHound/stargazers)
+* **License**: Apache-2.0 | **Primary Tech**: Go, Neo4j, JavaScript, Docker
+* **Overview**: The undisputed industry benchmark for identity risk management and attack path analysis. BloodHound uses graph theory to reveal unintended hidden permission relationships and privilege escalation routes in hybrid Active Directory and Microsoft Entra ID environments.
+* **Key Capabilities**: Maps shortest attack paths to Domain Admins and Global Admins; simulates adversary movement; enables blue teams to surgically sever high-risk edge relationships before adversaries exploit them.
+* **Limitations**: Analysis and posture auditing platform only; does not perform directory backup or object restoration.
 
+### 2. 🏰 [PingCastle](https://github.com/netwrix/pingcastle) [![GitHub stars](https://img.shields.io/github/stars/netwrix/pingcastle?style=social&color=white)](https://github.com/netwrix/pingcastle/stargazers)
+* **License**: Non-Commercial / Community Edition | **Primary Tech**: C#, .NET
+* **Overview**: A widely respected, standalone Active Directory security auditing and risk assessment tool designed to quickly assess directory posture and calculate an organization's AD risk score.
+* **Key Capabilities**: Discovers AD misconfigurations, obsolete objects, weak trust links, privileged account hygiene vulnerabilities, and anomalies; outputs actionable, color-coded executive reports and technical remediation roadmaps.
+* **Limitations**: Point-in-time assessment engine; does not provide real-time protection or automated DC rollback.
 
-- **DSInternals**
+### 3. 🤿 [ScubaGear](https://github.com/cisagov/ScubaGear) [![GitHub stars](https://img.shields.io/github/stars/cisagov/ScubaGear?style=social&color=white)](https://github.com/cisagov/ScubaGear/stargazers)
+* **License**: CC0-1.0 (Public Domain) | **Primary Tech**: PowerShell
+* **Overview**: Developed by the Cybersecurity and Infrastructure Security Agency (CISA), ScubaGear automates assessment of Microsoft 365 and Microsoft Entra ID tenant security baselines against CISA's Secure Cloud Business Applications (SCuBA) technical benchmarks.
+* **Key Capabilities**: Verifies Entra ID Conditional Access policies, multi-factor authentication (MFA) enforcement, administrative role segregation, and tenant-level sharing permissions; generates interactive HTML compliance reports.
+* **Limitations**: Focused on Microsoft 365 cloud identity configuration compliance rather than on-premises AD forest recovery.
 
-  **Directory Services Internals PowerShell module and framework** (MIT) — **the most powerful open-source tool for AD recovery and auditing**, with code integrated into commercial disaster recovery products . **Features**: **Bare-metal recovery of domain controllers from IFM backups** (ntds.dit + SYSVOL); **offline ntds.dit manipulation**—hash dumping, password resets, group membership changes, LAPS password decryption, BitLocker recovery key extraction; **online DCSync** via MS-DRSR; **password auditing** against HaveIBeenPwned; **Entra ID FIDO2 key auditing**; **AD-integrated DNS zone extraction** with DNSSEC keys . **Tech stack**: PowerShell, .NET. **Deploy**: `Install-Module DSInternals` (PowerShell Gallery) or Chocolatey . **Trade-off**: **Not supported by Microsoft**—improper use can cause irreversible damage; requires deep AD expertise. **Best for**: AD administrators and incident responders needing offline recovery, credential auditing, and forensic analysis—not a turnkey backup platform.
+### 4. 🗺️ [ROADtools](https://github.com/dirkjanm/ROADtools) [![GitHub stars](https://img.shields.io/github/stars/dirkjanm/ROADtools?style=social&color=white)](https://github.com/dirkjanm/ROADtools/stargazers)
+* **License**: MIT | **Primary Tech**: Python, SQLAlchemy
+* **Overview**: A rogue's exploration and auditing framework for Microsoft Entra ID (Azure AD), authored by researcher Dirk-jan Mollema.
+* **Key Capabilities**: Dumps Entra ID data (users, devices, directory roles, service principals, Conditional Access rules) via internal Graph APIs into a local SQLite database, accompanied by a local web GUI (ROADrecon) for deep visual exploration of tenant permissions.
+* **Limitations**: Read-only reconnaissance framework; provides data collection and visualization rather than configuration restoration.
 
+### 5. 📚 [AzureAD-Attack-Defense](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense) [![GitHub stars](https://img.shields.io/github/stars/Cloud-Architekt/AzureAD-Attack-Defense?style=social&color=white)](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense/stargazers)
+* **License**: Open Reference | **Primary Tech**: PowerShell, Markdown, Architecture Blueprints
+* **Overview**: The most comprehensive open-source playbook for understanding Entra ID attack surfaces and operationalizing blue team hardening controls.
+* **Key Capabilities**: Step-by-step mitigation recipes for token theft, Pass-the-PRT, consent grant abuses, service principal abuse, and administrative privilege escalation; maps each attack vector to actionable detection queries and hardening configurations.
+* **Limitations**: Knowledge repository and implementation guidance rather than an autonomous automation platform.
 
+### 6. 🐍 [BloodHound.py](https://github.com/dirkjanm/BloodHound.py) [![GitHub stars](https://img.shields.io/github/stars/dirkjanm/BloodHound.py?style=social&color=white)](https://github.com/dirkjanm/BloodHound.py/stargazers)
+* **License**: MIT | **Primary Tech**: Python, Impacket, LDAP
+* **Overview**: A cross-platform Python-based ingestor for BloodHound. Enables seamless collection of Active Directory and domain data directly from Linux, macOS, or containerized environments without relying on domain-joined Windows endpoints.
+* **Key Capabilities**: Queries domain controllers using standard LDAP/SAMR/RPC; supports Kerberos and NTLM authentication; generates zip files ready for drag-and-drop into the BloodHound GUI.
+* **Limitations**: Collector utility only; relies on BloodHound for visualization and path analysis.
 
-- **BloodHound**
+### 7. 📜 [Microsoft 365 DSC](https://github.com/Microsoft365DSC/Microsoft365DSC) [![GitHub stars](https://img.shields.io/github/stars/Microsoft365DSC/Microsoft365DSC?style=social&color=white)](https://github.com/Microsoft365DSC/Microsoft365DSC/stargazers)
+* **License**: MIT | **Primary Tech**: PowerShell, Desired State Configuration (DSC)
+* **Overview**: Declarative configuration management tool backed by Microsoft that serves as the premier open-source blueprint for Entra ID tenant backup and automated configuration drift monitoring.
+* **Key Capabilities**: Reverse-engineers tenant configurations into declarative code; exports and synchronizes users, groups, application registrations, and Conditional Access policies; continuously detects and self-corrects unintended tenant modifications.
+* **Limitations**: Restores declarative tenant structure, but cannot restore encrypted credentials, secrets, or transactional state.
 
-  **Identity risk management and attack path analyzer** (Apache 2.0) — **the standard open-source tool for AD privilege relationship mapping**. **Features**: **Graph-based attack path analysis**—maps identity relationships and permissions to uncover unintended privilege paths; **adversary emulation framework**; **identifies paths to Domain Admin**; **reverse proxy for MFA bypass emulation**; community-driven collection . **Tech stack**: Go, Neo4j. **Deploy**: Self-hosted (Docker, binary). **Trade-off**: **Analysis tool, not backup/recovery**—it finds attack paths but does not protect or restore AD. **Best for**: security teams auditing AD privilege relationships and hardening identity infrastructure—especially before ransomware can exploit those paths.
+### 8. ⚡ [Adalanche](https://github.com/lkarlslund/Adalanche) [![GitHub stars](https://img.shields.io/github/stars/lkarlslund/Adalanche?style=social&color=white)](https://github.com/lkarlslund/Adalanche/stargazers)
+* **License**: AGPL-3.0 | **Primary Tech**: Go, Embedded Graph Database, HTML5
+* **Overview**: A lightning-fast, self-contained Active Directory and Azure AD ACL/permission visualizer that runs as a single zero-dependency binary without external database requirements.
+* **Key Capabilities**: Queries Active Directory via LDAP, instantly constructs an in-memory graph, and serves an interactive web interface highlighting effective permissions, group nestings, and takeover paths in real time.
+* **Limitations**: Focused purely on immediate visual ACL assessment; does not store continuous change histories or backups.
 
+### 9. 🛠️ [DSInternals](https://github.com/MichaelGrafnetter/DSInternals) [![GitHub stars](https://img.shields.io/github/stars/MichaelGrafnetter/DSInternals?style=social&color=white)](https://github.com/MichaelGrafnetter/DSInternals/stargazers)
+* **License**: MIT | **Primary Tech**: C#, PowerShell, .NET
+* **Overview**: The most powerful open-source forensic and recovery framework for Active Directory. Developed by Michael Grafnetter, its engine exposes undocumented AD internal database formats (`ntds.dit`) and directory replication protocols.
+* **Key Capabilities**: Bare-metal domain controller recovery from Install-From-Media (IFM) snapshots; offline manipulation of `ntds.dit` (password resets, group adjustments, LAPS key decryption, BitLocker key extraction); online DCSync replication; password hash auditing against compromised dictionaries.
+* **Limitations**: Advanced low-level engine requiring deep AD administration expertise; erroneous use can cause irreparable directory damage.
 
+### 10. ☁️ [AADInternals](https://github.com/Gerenios/AADInternals) [![GitHub stars](https://img.shields.io/github/stars/Gerenios/AADInternals?style=social&color=white)](https://github.com/Gerenios/AADInternals/stargazers)
+* **License**: MIT | **Primary Tech**: PowerShell
+* **Overview**: The quintessential PowerShell module for administering, forensic auditing, and security testing Microsoft Entra ID and Microsoft 365 internal APIs.
+* **Key Capabilities**: Simulates hybrid identity flows; audits password hash synchronization (PHS) and Seamless SSO; inspects Kerberos realm configurations; identifies misconfigured federated trust relationships and OAuth enterprise application consent grants.
+* **Limitations**: Highly capable dual-use administrative tool; requires strict administrative controls when running in production.
 
-- **Microsoft 365 DSC**
+### 11. 🐦 [Sparrow](https://github.com/cisagov/Sparrow) [![GitHub stars](https://img.shields.io/github/stars/cisagov/Sparrow?style=social&color=white)](https://github.com/cisagov/Sparrow/stargazers)
+* **License**: CC0-1.0 (Public Domain) | **Primary Tech**: PowerShell
+* **Overview**: Forensic utility released by the Cybersecurity and Infrastructure Security Agency (CISA) Cloud Forensics team to assist incident responders in detecting identity compromise and unauthorized activity within Microsoft Entra ID and M365 environments.
+* **Key Capabilities**: Scans unified audit logs for suspicious domain modifications, app role assignments, service principal credential additions, and unusual PowerShell logins; outputs categorized CSV records for investigation.
+* **Limitations**: Post-incident forensic auditor; does not provide continuous telemetry or preventative access controls.
 
-  **Declarative configuration management** for Microsoft 365 (open source) — **the most rigorous open-source Entra ID backup method** according to Wavestone's PoC . **Features**: **Export/import Entra ID objects**—users, groups, roles, applications, service principals; **declarative approach**—define desired state rather than steps; **partial recovery**—not all user attributes are restored; passwords are replaced with defaults; active/deactivated state is not captured . **Tech stack**: PowerShell. **Deploy**: PowerShell module. **Trade-off**: **Not a full backup solution**—Wavestone's PoC found partial attribute restoration, password loss, and state ambiguity . **Best for**: organizations wanting declarative Entra ID configuration management—accepting partial recovery limitations.
+### 12. 🐕 [SharpHound](https://github.com/SpecterOps/SharpHound) [![GitHub stars](https://img.shields.io/github/stars/SpecterOps/SharpHound?style=social&color=white)](https://github.com/SpecterOps/SharpHound/stargazers)
+* **License**: GPL-3.0 | **Primary Tech**: C#, .NET
+* **Overview**: The official, high-performance C# data collector for BloodHound.
+* **Key Capabilities**: Employs multi-threaded Windows API calls and LDAP queries to map enterprise domain controllers, local group memberships, active user sessions, ACL permissions, Object Owners, and Kerberos delegation settings.
+* **Limitations**: Data ingestion collector only; data must be loaded into BloodHound for attack graph visualization.
 
+### 13. 🐵 [Monkey365](https://github.com/silverhack/monkey365) [![GitHub stars](https://img.shields.io/github/stars/silverhack/monkey365?style=social&color=white)](https://github.com/silverhack/monkey365/stargazers)
+* **License**: Apache-2.0 | **Primary Tech**: PowerShell
+* **Overview**: A versatile security scanner and posture assessment tool for Microsoft 365, Microsoft Entra ID, and Azure environments.
+* **Key Capabilities**: Inspects hundreds of tenant configuration controls across Entra ID, Exchange Online, and SharePoint; produces exhaustive security posture reports in HTML and JSON; maps findings directly to industry benchmarks (CIS, NIST).
+* **Limitations**: Assessment engine focused on policy compliance rather than backup or disaster restoration.
 
-
-- **PyADRecon (and PyADRecon-ADWS)**
-
-  **Active Directory reconnaissance** for pentesters and blue teams (open source) — **the most accessible open-source AD reconnaissance tool** for assessment and hardening . **Features**: **Gathers AD information** and generates XLSX report; **ADWS variant** queries Active Directory Web Services (TCP/9389) instead of LDAP—**flies under EDR radar**; supports NTLM and Kerberos auth; modules for users, groups, computers, OUs . **Tech stack**: Python. **Deploy**: `pipx install pyadrecon` or `pyadrecon-adws`. **Trade-off**: **Reconnaissance only**—no backup, recovery, or continuous protection. **Best for**: pentesters and blue teams assessing AD exposure and identifying hardening opportunities.
-
-
-
-- **AzureAD-Attack-Defense**
-
-  **Entra ID attack mitigation guidance** (open source) — **the most comprehensive open-source Entra ID hardening reference**. **Features**: **Step-by-step instructions** to reduce attack surface and harden Entra ID against specific identity threats; covers common attack scenarios and their mitigations/detections; community-maintained . **Tech stack**: PowerShell, documentation. **Deploy**: Reference/documentation. **Trade-off**: **Guidance, not a tool**—it tells you what to harden but does not automate protection. **Best for**: identity administrators wanting actionable hardening guidance for Entra ID—especially before deploying commercial protection.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Cayosoft Graph (cGraph) PowerShell Module** — Free PowerShell cmdlets for Microsoft Graph API (free). Manage Entra ID, Office 365, Intune, and more via Graph . **Note**: **Management module, not backup**—for automation and administration. **Best for**: administrators wanting Graph API access without building authentication from scratch.
-
-- **No mature open-source AD forest recovery platform exists.** Semperis, Rubrik, Quest, and ManageEngine dominate. **DSInternals** provides the building blocks for offline recovery, but automated forest recovery requires commercial platforms.
-
-
-
-**Frameworks for building custom systems**: Combine **DSInternals** for offline AD recovery and auditing with **BloodHound** for attack path analysis and **Microsoft 365 DSC** for Entra ID configuration export—creating a layered open-source protection stack. **None of these match Semperis' automated forest recovery or Rubrik's five-step wizard**, but for auditing, recovery scripting, and hardening, the options are production-proven.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- AD/Entra ID protection platforms handling credentials and directory data must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls.
-
-- **The "backup/recovery" vs. "auditing" vs. "attack path analysis" vs. "hardening guidance" distinction is critical.** **Semperis, Rubrik, Quest, ManageEngine, Veeam, Commvault, Cohesity, and Druva** are **backup/recovery platforms**—they protect and restore AD/Entra ID . **Netwrix** is **auditing**—it tracks changes but does not restore . **Cayosoft** is **management**—it administers AD but recovery is one feature . **DSInternals** is **offline recovery/auditing**—it provides the building blocks for recovery . **BloodHound** is **attack path analysis**—it finds privilege paths but does not protect . **AzureAD-Attack-Defense** is **hardening guidance**—it tells you what to fix . **Choose based on whether you need restoration, audit trails, privilege mapping, or hardening guidance.**
-
-- **DSInternals is the most powerful open-source AD tool**—it enables bare-metal domain controller recovery from IFM backups, offline password resets, and DCSync detection . **The trade-off**: Microsoft does not support it; improper use can cause irreversible damage. **For administrators with deep AD expertise, it is indispensable for incident response.**
-
-- **BloodHound is the standard for attack path analysis**—it maps unintended privilege relationships that ransomware exploits . **The trade-off**: analysis only; it does not back up or restore. **Run it before an incident, not after.**
-
-- **Microsoft 365 DSC is not a full Entra ID backup solution.** Wavestone's PoC found **partial attribute restoration, password replacement with defaults, and active/deactivated state ambiguity** . **Do not rely on it as your only Entra ID backup.**
-
-- **Semperis DSP and Rubrik Identity Resilience are the enterprise leaders**—Semperis powers Cohesity Identity Resilience , and Rubrik reduces forest recovery from 20+ manual steps to a five-step wizard . **Both are quote-only; neither is accessible for SMB evaluation.**
-
-- **ManageEngine RecoveryManager Plus is the most transparent commercial option**—AD from **$475/year**, M365 from **$195/year** . **For SMBs wanting affordable AD backup, it is the pragmatic entry point.**
-
-- **Veeam Explorer for AD is included with all Veeam editions**—but full restore requires Enterprise or Enterprise Plus . **If you already run Veeam, AD recovery is a licensing upgrade away.**
-
-- **Cayosoft Free Edition is genuinely useful**—web portal, LAPS access, BitLocker recovery, and self-service password change at no cost . **For organizations wanting AD management without per-admin fees, it is worth deploying.**
-
-- Self-hosted open-source solutions require proper setup, PowerShell expertise, and security hardening. **AD/Entra ID tools have privileged access to identity infrastructure**—ensure your deployment meets your organization's security standards before using them in production.
-
-
+### 14. 🔎 [PyADRecon](https://github.com/l4rm4nd/PyADRecon) [![GitHub stars](https://img.shields.io/github/stars/l4rm4nd/PyADRecon?style=social&color=white)](https://github.com/l4rm4nd/PyADRecon/stargazers)
+* **License**: MIT | **Primary Tech**: Python
+* **Overview**: Python-based Active Directory reconnaissance tool designed for red and blue teams assessing domain configuration vulnerabilities.
+* **Key Capabilities**: Queries Active Directory Web Services (ADWS on TCP/9389) or standard LDAP; extracts comprehensive inventory of domain objects, OUs, trusts, SPNs, and password policies; exports comprehensive findings into structured Excel (`.xlsx`) workbooks.
+* **Limitations**: Reconnaissance utility; does not execute continuous change protection or directory restore.
 
 ---
 
+## 🤝 How to Contribute
 
+We welcome community contributions, tool submissions, and updates!
 
-**Made for identity administrators, security engineers, and organizations building transparent AD/Entra ID protection solutions.**
+1. 🍴 **Fork** the repository.
+2. 🌿 **Create a new branch** (`git checkout -b feature/new-tool-entry`).
+3. ✏️ **Add or edit entries** in `README.md` following the existing format (include license, tech stack, key focus, and GitHub star badge).
+4. 🚀 **Commit your changes** (`git commit -m "Add NewTool to Open-Source section"`).
+5. 📤 **Push to your branch** (`git push origin feature/new-tool-entry`).
+6. 📬 **Open a Pull Request** with a brief summary of the project and why it belongs in this curated guide.
 
-Let's make Active Directory & Entra ID Protection more open, data-driven, and recovery-proven.
+---
+
+## 💖 Support
+
+If you find this curated directory helpful for securing your organization's hybrid identity infrastructure, please consider supporting the project:
+
+- 🌟 **Star the repository** to boost visibility and keep up with new security tools.
+- 🍴 **Fork and share** the repo with fellow identity security engineers, sysadmins, and blue teamers.
+- ☕ **Buy a coffee & sponsor**: Support continuous research and open-source maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for helping keep directory services and cloud identity infrastructure resilient and secure! 🚀
+
+---
+
+##  Saar History
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Active-Directory-Entra-Id-Protection&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Active-Directory-Entra-Id-Protection&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated index** intended solely for educational, administrative, and defensive security engineering purposes.
+- Tools that inspect internal directory databases (`ntds.dit`) or capture replication traffic (such as DSInternals or AADInternals) possess elevated privileged access; always obtain authorized written permission and test extensively in isolated lab environments prior to production usage.
+- Hybrid identity resilience requires a multi-layered defense strategy: combine automated immutable backups with continuous attack path elimination and identity threat detection and response (ITDR).
