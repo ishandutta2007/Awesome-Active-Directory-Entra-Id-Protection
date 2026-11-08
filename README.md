@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Active-Directory-Entra-Id-Protection/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Active-Directory-Entra-Id-Protection?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Active-Directory-Entra-Id-Protection/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Active-Directory-Entra-Id-Protection?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Active-Directory-Entra-Id-Protection/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Active-Directory-Entra-Id-Protection?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Active-Directory-Entra-Id-Protection/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -60,85 +60,85 @@ The dedicated Active Directory (AD) protection and Identity Threat Detection and
 
 Sorted in descending order by GitHub stargazers count. Each repository includes direct links to documentation, source code, and its stargazers community.
 
-### 1. 🔍 [BloodHound](https://github.com/SpecterOps/BloodHound) [![GitHub stars](https://img.shields.io/github/stars/SpecterOps/BloodHound?style=social&color=white)](https://github.com/SpecterOps/BloodHound/stargazers)
+### 1. 🔍 [BloodHound](https://github.com/SpecterOps/BloodHound) [![GitHub_Stars](https://img.shields.io/github/stars/SpecterOps/BloodHound?style=social&color=white)](https://github.com/SpecterOps/BloodHound/stargazers)
 * **License**: Apache-2.0 | **Primary Tech**: Go, Neo4j, JavaScript, Docker
 * **Overview**: The undisputed industry benchmark for identity risk management and attack path analysis. BloodHound uses graph theory to reveal unintended hidden permission relationships and privilege escalation routes in hybrid Active Directory and Microsoft Entra ID environments.
 * **Key Capabilities**: Maps shortest attack paths to Domain Admins and Global Admins; simulates adversary movement; enables blue teams to surgically sever high-risk edge relationships before adversaries exploit them.
 * **Limitations**: Analysis and posture auditing platform only; does not perform directory backup or object restoration.
 
-### 2. 🏰 [PingCastle](https://github.com/netwrix/pingcastle) [![GitHub stars](https://img.shields.io/github/stars/netwrix/pingcastle?style=social&color=white)](https://github.com/netwrix/pingcastle/stargazers)
+### 2. 🏰 [PingCastle](https://github.com/netwrix/pingcastle) [![GitHub_Stars](https://img.shields.io/github/stars/netwrix/pingcastle?style=social&color=white)](https://github.com/netwrix/pingcastle/stargazers)
 * **License**: Non-Commercial / Community Edition | **Primary Tech**: C#, .NET
 * **Overview**: A widely respected, standalone Active Directory security auditing and risk assessment tool designed to quickly assess directory posture and calculate an organization's AD risk score.
 * **Key Capabilities**: Discovers AD misconfigurations, obsolete objects, weak trust links, privileged account hygiene vulnerabilities, and anomalies; outputs actionable, color-coded executive reports and technical remediation roadmaps.
 * **Limitations**: Point-in-time assessment engine; does not provide real-time protection or automated DC rollback.
 
-### 3. 🤿 [ScubaGear](https://github.com/cisagov/ScubaGear) [![GitHub stars](https://img.shields.io/github/stars/cisagov/ScubaGear?style=social&color=white)](https://github.com/cisagov/ScubaGear/stargazers)
+### 3. 🤿 [ScubaGear](https://github.com/cisagov/ScubaGear) [![GitHub_Stars](https://img.shields.io/github/stars/cisagov/ScubaGear?style=social&color=white)](https://github.com/cisagov/ScubaGear/stargazers)
 * **License**: CC0-1.0 (Public Domain) | **Primary Tech**: PowerShell
 * **Overview**: Developed by the Cybersecurity and Infrastructure Security Agency (CISA), ScubaGear automates assessment of Microsoft 365 and Microsoft Entra ID tenant security baselines against CISA's Secure Cloud Business Applications (SCuBA) technical benchmarks.
 * **Key Capabilities**: Verifies Entra ID Conditional Access policies, multi-factor authentication (MFA) enforcement, administrative role segregation, and tenant-level sharing permissions; generates interactive HTML compliance reports.
 * **Limitations**: Focused on Microsoft 365 cloud identity configuration compliance rather than on-premises AD forest recovery.
 
-### 4. 🗺️ [ROADtools](https://github.com/dirkjanm/ROADtools) [![GitHub stars](https://img.shields.io/github/stars/dirkjanm/ROADtools?style=social&color=white)](https://github.com/dirkjanm/ROADtools/stargazers)
+### 4. 🗺️ [ROADtools](https://github.com/dirkjanm/ROADtools) [![GitHub_Stars](https://img.shields.io/github/stars/dirkjanm/ROADtools?style=social&color=white)](https://github.com/dirkjanm/ROADtools/stargazers)
 * **License**: MIT | **Primary Tech**: Python, SQLAlchemy
 * **Overview**: A rogue's exploration and auditing framework for Microsoft Entra ID (Azure AD), authored by researcher Dirk-jan Mollema.
 * **Key Capabilities**: Dumps Entra ID data (users, devices, directory roles, service principals, Conditional Access rules) via internal Graph APIs into a local SQLite database, accompanied by a local web GUI (ROADrecon) for deep visual exploration of tenant permissions.
 * **Limitations**: Read-only reconnaissance framework; provides data collection and visualization rather than configuration restoration.
 
-### 5. 📚 [AzureAD-Attack-Defense](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense) [![GitHub stars](https://img.shields.io/github/stars/Cloud-Architekt/AzureAD-Attack-Defense?style=social&color=white)](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense/stargazers)
+### 5. 📚 [AzureAD-Attack-Defense](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense) [![GitHub_Stars](https://img.shields.io/github/stars/Cloud-Architekt/AzureAD-Attack-Defense?style=social&color=white)](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense/stargazers)
 * **License**: Open Reference | **Primary Tech**: PowerShell, Markdown, Architecture Blueprints
 * **Overview**: The most comprehensive open-source playbook for understanding Entra ID attack surfaces and operationalizing blue team hardening controls.
 * **Key Capabilities**: Step-by-step mitigation recipes for token theft, Pass-the-PRT, consent grant abuses, service principal abuse, and administrative privilege escalation; maps each attack vector to actionable detection queries and hardening configurations.
 * **Limitations**: Knowledge repository and implementation guidance rather than an autonomous automation platform.
 
-### 6. 🐍 [BloodHound.py](https://github.com/dirkjanm/BloodHound.py) [![GitHub stars](https://img.shields.io/github/stars/dirkjanm/BloodHound.py?style=social&color=white)](https://github.com/dirkjanm/BloodHound.py/stargazers)
+### 6. 🐍 [BloodHound.py](https://github.com/dirkjanm/BloodHound.py) [![GitHub_Stars](https://img.shields.io/github/stars/dirkjanm/BloodHound.py?style=social&color=white)](https://github.com/dirkjanm/BloodHound.py/stargazers)
 * **License**: MIT | **Primary Tech**: Python, Impacket, LDAP
 * **Overview**: A cross-platform Python-based ingestor for BloodHound. Enables seamless collection of Active Directory and domain data directly from Linux, macOS, or containerized environments without relying on domain-joined Windows endpoints.
 * **Key Capabilities**: Queries domain controllers using standard LDAP/SAMR/RPC; supports Kerberos and NTLM authentication; generates zip files ready for drag-and-drop into the BloodHound GUI.
 * **Limitations**: Collector utility only; relies on BloodHound for visualization and path analysis.
 
-### 7. 📜 [Microsoft 365 DSC](https://github.com/Microsoft365DSC/Microsoft365DSC) [![GitHub stars](https://img.shields.io/github/stars/Microsoft365DSC/Microsoft365DSC?style=social&color=white)](https://github.com/Microsoft365DSC/Microsoft365DSC/stargazers)
+### 7. 📜 [Microsoft 365 DSC](https://github.com/Microsoft365DSC/Microsoft365DSC) [![GitHub_Stars](https://img.shields.io/github/stars/Microsoft365DSC/Microsoft365DSC?style=social&color=white)](https://github.com/Microsoft365DSC/Microsoft365DSC/stargazers)
 * **License**: MIT | **Primary Tech**: PowerShell, Desired State Configuration (DSC)
 * **Overview**: Declarative configuration management tool backed by Microsoft that serves as the premier open-source blueprint for Entra ID tenant backup and automated configuration drift monitoring.
 * **Key Capabilities**: Reverse-engineers tenant configurations into declarative code; exports and synchronizes users, groups, application registrations, and Conditional Access policies; continuously detects and self-corrects unintended tenant modifications.
 * **Limitations**: Restores declarative tenant structure, but cannot restore encrypted credentials, secrets, or transactional state.
 
-### 8. ⚡ [Adalanche](https://github.com/lkarlslund/Adalanche) [![GitHub stars](https://img.shields.io/github/stars/lkarlslund/Adalanche?style=social&color=white)](https://github.com/lkarlslund/Adalanche/stargazers)
+### 8. ⚡ [Adalanche](https://github.com/lkarlslund/Adalanche) [![GitHub_Stars](https://img.shields.io/github/stars/lkarlslund/Adalanche?style=social&color=white)](https://github.com/lkarlslund/Adalanche/stargazers)
 * **License**: AGPL-3.0 | **Primary Tech**: Go, Embedded Graph Database, HTML5
 * **Overview**: A lightning-fast, self-contained Active Directory and Azure AD ACL/permission visualizer that runs as a single zero-dependency binary without external database requirements.
 * **Key Capabilities**: Queries Active Directory via LDAP, instantly constructs an in-memory graph, and serves an interactive web interface highlighting effective permissions, group nestings, and takeover paths in real time.
 * **Limitations**: Focused purely on immediate visual ACL assessment; does not store continuous change histories or backups.
 
-### 9. 🛠️ [DSInternals](https://github.com/MichaelGrafnetter/DSInternals) [![GitHub stars](https://img.shields.io/github/stars/MichaelGrafnetter/DSInternals?style=social&color=white)](https://github.com/MichaelGrafnetter/DSInternals/stargazers)
+### 9. 🛠️ [DSInternals](https://github.com/MichaelGrafnetter/DSInternals) [![GitHub_Stars](https://img.shields.io/github/stars/MichaelGrafnetter/DSInternals?style=social&color=white)](https://github.com/MichaelGrafnetter/DSInternals/stargazers)
 * **License**: MIT | **Primary Tech**: C#, PowerShell, .NET
 * **Overview**: The most powerful open-source forensic and recovery framework for Active Directory. Developed by Michael Grafnetter, its engine exposes undocumented AD internal database formats (`ntds.dit`) and directory replication protocols.
 * **Key Capabilities**: Bare-metal domain controller recovery from Install-From-Media (IFM) snapshots; offline manipulation of `ntds.dit` (password resets, group adjustments, LAPS key decryption, BitLocker key extraction); online DCSync replication; password hash auditing against compromised dictionaries.
 * **Limitations**: Advanced low-level engine requiring deep AD administration expertise; erroneous use can cause irreparable directory damage.
 
-### 10. ☁️ [AADInternals](https://github.com/Gerenios/AADInternals) [![GitHub stars](https://img.shields.io/github/stars/Gerenios/AADInternals?style=social&color=white)](https://github.com/Gerenios/AADInternals/stargazers)
+### 10. ☁️ [AADInternals](https://github.com/Gerenios/AADInternals) [![GitHub_Stars](https://img.shields.io/github/stars/Gerenios/AADInternals?style=social&color=white)](https://github.com/Gerenios/AADInternals/stargazers)
 * **License**: MIT | **Primary Tech**: PowerShell
 * **Overview**: The quintessential PowerShell module for administering, forensic auditing, and security testing Microsoft Entra ID and Microsoft 365 internal APIs.
 * **Key Capabilities**: Simulates hybrid identity flows; audits password hash synchronization (PHS) and Seamless SSO; inspects Kerberos realm configurations; identifies misconfigured federated trust relationships and OAuth enterprise application consent grants.
 * **Limitations**: Highly capable dual-use administrative tool; requires strict administrative controls when running in production.
 
-### 11. 🐦 [Sparrow](https://github.com/cisagov/Sparrow) [![GitHub stars](https://img.shields.io/github/stars/cisagov/Sparrow?style=social&color=white)](https://github.com/cisagov/Sparrow/stargazers)
+### 11. 🐦 [Sparrow](https://github.com/cisagov/Sparrow) [![GitHub_Stars](https://img.shields.io/github/stars/cisagov/Sparrow?style=social&color=white)](https://github.com/cisagov/Sparrow/stargazers)
 * **License**: CC0-1.0 (Public Domain) | **Primary Tech**: PowerShell
 * **Overview**: Forensic utility released by the Cybersecurity and Infrastructure Security Agency (CISA) Cloud Forensics team to assist incident responders in detecting identity compromise and unauthorized activity within Microsoft Entra ID and M365 environments.
 * **Key Capabilities**: Scans unified audit logs for suspicious domain modifications, app role assignments, service principal credential additions, and unusual PowerShell logins; outputs categorized CSV records for investigation.
 * **Limitations**: Post-incident forensic auditor; does not provide continuous telemetry or preventative access controls.
 
-### 12. 🐕 [SharpHound](https://github.com/SpecterOps/SharpHound) [![GitHub stars](https://img.shields.io/github/stars/SpecterOps/SharpHound?style=social&color=white)](https://github.com/SpecterOps/SharpHound/stargazers)
+### 12. 🐕 [SharpHound](https://github.com/SpecterOps/SharpHound) [![GitHub_Stars](https://img.shields.io/github/stars/SpecterOps/SharpHound?style=social&color=white)](https://github.com/SpecterOps/SharpHound/stargazers)
 * **License**: GPL-3.0 | **Primary Tech**: C#, .NET
 * **Overview**: The official, high-performance C# data collector for BloodHound.
 * **Key Capabilities**: Employs multi-threaded Windows API calls and LDAP queries to map enterprise domain controllers, local group memberships, active user sessions, ACL permissions, Object Owners, and Kerberos delegation settings.
 * **Limitations**: Data ingestion collector only; data must be loaded into BloodHound for attack graph visualization.
 
-### 13. 🐵 [Monkey365](https://github.com/silverhack/monkey365) [![GitHub stars](https://img.shields.io/github/stars/silverhack/monkey365?style=social&color=white)](https://github.com/silverhack/monkey365/stargazers)
+### 13. 🐵 [Monkey365](https://github.com/silverhack/monkey365) [![GitHub_Stars](https://img.shields.io/github/stars/silverhack/monkey365?style=social&color=white)](https://github.com/silverhack/monkey365/stargazers)
 * **License**: Apache-2.0 | **Primary Tech**: PowerShell
 * **Overview**: A versatile security scanner and posture assessment tool for Microsoft 365, Microsoft Entra ID, and Azure environments.
 * **Key Capabilities**: Inspects hundreds of tenant configuration controls across Entra ID, Exchange Online, and SharePoint; produces exhaustive security posture reports in HTML and JSON; maps findings directly to industry benchmarks (CIS, NIST).
 * **Limitations**: Assessment engine focused on policy compliance rather than backup or disaster restoration.
 
-### 14. 🔎 [PyADRecon](https://github.com/l4rm4nd/PyADRecon) [![GitHub stars](https://img.shields.io/github/stars/l4rm4nd/PyADRecon?style=social&color=white)](https://github.com/l4rm4nd/PyADRecon/stargazers)
+### 14. 🔎 [PyADRecon](https://github.com/l4rm4nd/PyADRecon) [![GitHub_Stars](https://img.shields.io/github/stars/l4rm4nd/PyADRecon?style=social&color=white)](https://github.com/l4rm4nd/PyADRecon/stargazers)
 * **License**: MIT | **Primary Tech**: Python
 * **Overview**: Python-based Active Directory reconnaissance tool designed for red and blue teams assessing domain configuration vulnerabilities.
 * **Key Capabilities**: Queries Active Directory Web Services (ADWS on TCP/9389) or standard LDAP; extracts comprehensive inventory of domain objects, OUs, trusts, SPNs, and password policies; exports comprehensive findings into structured Excel (`.xlsx`) workbooks.
@@ -152,7 +152,7 @@ We welcome community contributions, tool submissions, and updates!
 
 1. 🍴 **Fork** the repository.
 2. 🌿 **Create a new branch** (`git checkout -b feature/new-tool-entry`).
-3. ✏️ **Add or edit entries** in `README.md` following the existing format (include license, tech stack, key focus, and GitHub star badge).
+3. ✏️ **Add or edit entries** in `README.md` following the existing format (include license, tech stack, key focus, and GitHub Stars_Badge).
 4. 🚀 **Commit your changes** (`git commit -m "Add NewTool to Open-Source section"`).
 5. 📤 **Push to your branch** (`git push origin feature/new-tool-entry`).
 6. 📬 **Open a Pull Request** with a brief summary of the project and why it belongs in this curated guide.
